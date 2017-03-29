@@ -4,7 +4,7 @@ $(document).ready(function () {
         , cache: false
         , dataType: "json"
         , success: function (json) {
-            $(".quote").html(json[0].content + json[0].title);
+            $(".quote").html("<p>" + json[0].content + "</p>" + "<hr width=20%>" + "<footer>" + json[0].title + "</footer>");
         }
     });
     $("#butn").on("click", function () {
@@ -13,7 +13,7 @@ $(document).ready(function () {
             , cache: false
             , dataType: "json"
             , success: function (json) {
-                $(".quote").html(json[0].content + json[0].title);
+                $(".quote").html('<p class="main-quo">' + json[0].content + "</p>" + "<hr width=20%>" + '<footer class="auth">' + json[0].title + "</footer>");
             }
         });
     });
