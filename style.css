@@ -22,13 +22,17 @@
     margin-bottom: 20px;
 }
 
-p {
+.quote p {
     font-size: 25px;
     font-style: italic;
     font-family: handlee
 }
 
-footer {
+.quote hr {
+    width=20%;
+}
+
+.quote footer {
     font-family: monospace;
 }
 
