@@ -27,3 +27,15 @@ p {
     font-style: italic;
     font-family: handlee
 }
+
+footer {
+    font-family: monospace;
+}
+
+.twit {
+    margin-top: 10px;
+}
+
+.buttons {
+    padding-top: 30px;
+}

@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="script.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
 
 <head>
     <title>Random Quote Machine by Akash</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="script.js"></script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -25,8 +26,11 @@
             </div>
         </div>
     </div>
-    <div class="row text-center">
-        <button type="button" id="butn" class="btn">Get a Quote!</button>
+    <div class="row text-center buttons">
+        <div class="generate col-md-6">
+            <button type="button" id="butn" class="btn">Get a Quote!</button>
+        </div>
+        <div class="twit col-md-6"> Tweet </div>
     </div>
 </body>
 
