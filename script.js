@@ -6,7 +6,7 @@ var ajaxFunction = function(){
       , cache: false
       , dataType: "json"
       , success: function (json) {
-          $(".quote").html("<p>" + json.quoteText + "</p>" + "<hr width=20%>" + "<footer>" + json.quoteAuthor + "</footer>");
+          $(".quote").html("<p>" + json.quoteText + "</p>" + "<hr width=25%>" + "<footer>" + json.quoteAuthor + "</footer>");
           $("#tweet").attr("href",'https://twitter.com/intent/tweet?hashtags=quotesbyakash&text='+json.quoteText);
       }
   });
